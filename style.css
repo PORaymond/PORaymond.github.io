@@ -1,4 +1,8 @@
 body{
     font-family: Outfit;
-    color: hsl(220, 15%, 55%);
+    background-color: hsl(220, 15%, 55%);
+}
+
+.class{
+    background-color: white;
 }
