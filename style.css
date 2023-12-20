@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster+Two&display=swap');
+
+body {
+	width: 70%;
+	margin: 0 auto;
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #eeeeee; /* Couleur du texte clair */
+    font-family: 'Lato', sans-serif; /* Police Lato pour le texte principal */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster Two', cursive; /* Police Lobster pour les titres */
+	padding: 1rem 0;
+	margin: 0;
+}
+h1{
+	color: rgb(250, 208, 129);
+	font-size: 220%;
+}
+h2{
+	color: #ff7500;
+	font-size: 140%;
+}
+h3{
+	color: rgb(255, 155, 118)
+}
+ul, ol {
+    color: #eeeeee; /* Couleur du texte clair pour les listes */
+}
+ol > li {
+	font-size: 85%;
+	padding : 0;
+	}
+
+a {
+	text-decoration: none;
+
+    color: #e3cdff; /* Couleur des liens */
+}
+
+a:hover {
+    color: #a1fff6; /* Couleur des liens au survol */
+}
+.ingredient{
+	display: flex;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 6fr;
+}
+
+.qte{
+	font-size: 100%;
+	color: #f5e870;
+	text-align: right;
+}
+
+.unite{
+	color: #f7ed99; 
+	padding: 0 3px;
+}
+
+grid-item {
+	display: grid;
+	align-items: end;
+}  
+
+
+.grand-contenant {
+	display: grid;
+	grid-template-columns: 2fr 5fr;
+	align-items: start;
+}
+p {
+	margin: 0 0 16px 0;
+}
+sub {
+	padding:0 0 0 2px ;
+	position: relative;
+	top: -5px;
+
+}
+header{
+	height: 7rem;
+}
